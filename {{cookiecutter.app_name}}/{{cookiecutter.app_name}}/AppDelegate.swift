@@ -7,7 +7,6 @@
 
 import UIKit
 
-@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     lazy private var router = RootRouter()
     lazy private var deeplinkHandler = DeeplinkHandler()

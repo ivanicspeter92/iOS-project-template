@@ -5,9 +5,8 @@
 //  Copyright © {{cookiecutter.company_name}}. All rights reserved.
 //
 
-import UIKit
 import SwiftUI
-
+import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?

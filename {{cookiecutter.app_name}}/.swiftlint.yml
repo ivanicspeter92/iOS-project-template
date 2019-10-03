@@ -3,6 +3,7 @@ disabled_rules:
   - comma
   - control_statement
   - todo
+  - trailing_closure
 opt_in_rules:
   - attributes
   - closure_end_indentation
@@ -23,7 +24,6 @@ opt_in_rules:
   - single_test_class
   - sorted_imports
   - switch_case_on_newline
-  - trailing_closure
   - unneeded_parentheses_in_closure_argument
 excluded:
   - Carthage

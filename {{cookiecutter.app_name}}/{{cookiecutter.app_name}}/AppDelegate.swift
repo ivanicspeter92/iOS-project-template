@@ -18,9 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Notifications
         notificationsHandler.configure()
 
-        // App structure
-        router.loadMainAppStructure()
-
         return true
     }
 

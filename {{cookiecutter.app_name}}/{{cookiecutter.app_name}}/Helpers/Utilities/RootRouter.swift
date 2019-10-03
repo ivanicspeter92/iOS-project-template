@@ -23,14 +23,4 @@ class RootRouter {
             window.rootViewController = controller
         }
     }
-
-    func loadMainAppStructure() {
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-
-        guard let initialViewController = storyboard.instantiateInitialViewController() else {
-            fatalError("Could not find initial ViewController")
-        }
-
-        setRootViewController(controller: initialViewController, animatedWithOptions: nil)
-    }
 }

@@ -1,4 +1,5 @@
 {
     "app_name": "AwesomeApp",
-    "company_name": "AwesomeCompany"
+    "company_name": "AwesomeCompany",
+    "bundle_id": "your.bundle.id"
 }

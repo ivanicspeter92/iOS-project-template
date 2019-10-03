@@ -19,6 +19,8 @@
 		7337EBE12345D48200B39598 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337EBE02345D48100B39598 /* SceneDelegate.swift */; };
 		7337EBE32345D4EE00B39598 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7337EBE22345D4EE00B39598 /* ContentView.swift */; };
 		7337EBE62345D53600B39598 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7337EBE52345D53600B39598 /* Preview Assets.xcassets */; };
+		7337EBE92345DF0B00B39598 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7337EBE72345DF0B00B39598 /* .gitignore */; };
+		7337EBEA2345DF0B00B39598 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7337EBE82345DF0B00B39598 /* .swiftlint.yml */; };
 		C90395241FC622D2006F1DC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90395231FC622D2006F1DC0 /* main.swift */; };
 		C90395261FC62399006F1DC0 /* TestsAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90395251FC62399006F1DC0 /* TestsAppDelegate.swift */; };
 		C90395271FC62425006F1DC0 /* TestsAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90395251FC62399006F1DC0 /* TestsAppDelegate.swift */; };
@@ -54,6 +56,8 @@
 		7337EBE02345D48100B39598 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7337EBE22345D4EE00B39598 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7337EBE52345D53600B39598 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7337EBE72345DF0B00B39598 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7337EBE82345DF0B00B39598 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		C90395231FC622D2006F1DC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C90395251FC62399006F1DC0 /* TestsAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsAppDelegate.swift; sourceTree = "<group>"; };
 		FCB2C7CA1F57127800481080 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				55F50BE321404BDD00FAC039 /* Readme.md */,
+				7337EBE72345DF0B00B39598 /* .gitignore */,
+				7337EBE82345DF0B00B39598 /* .swiftlint.yml */,
 				2A1E77351F384BFC006C84D4 /* {{cookiecutter.app_name}} */,
 				2A1E774A1F384BFD006C84D4 /* {{cookiecutter.app_name}}Tests */,
 				2A1E77341F384BFC006C84D4 /* Products */,
@@ -335,7 +341,9 @@
 				2ABEE6D41F38856A00531205 /* Configuration.plist in Resources */,
 				FCB2C7CB1F57127800481080 /* Localizable.strings in Resources */,
 				7337EBE62345D53600B39598 /* Preview Assets.xcassets in Resources */,
+				7337EBEA2345DF0B00B39598 /* .swiftlint.yml in Resources */,
 				2A1E77411F384BFD006C84D4 /* LaunchScreen.storyboard in Resources */,
+				7337EBE92345DF0B00B39598 /* .gitignore in Resources */,
 				2A1E773E1F384BFD006C84D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

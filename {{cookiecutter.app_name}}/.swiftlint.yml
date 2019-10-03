@@ -1,4 +1,7 @@
 disabled_rules:
+  - colon
+  - comma
+  - control_statement
   - todo
 opt_in_rules:
   - attributes
@@ -26,11 +29,59 @@ excluded:
   - Carthage
   - Pods
   - {{cookiecutter.app_name}}/Resources/Generated/R.generated.swift
+force_cast:
+  severity: warning
+force_try:
+  severity: warning # explicitly
+line_length:
+  warning: 300
+  error: 500
+  ignores_comments: true
+  ignores_urls: true
+type_body_length:
+  warning: 300
+  error: 400
+file_length:
+  warning: 1000
+  error: 2000
+function_body_length: 
+  warning: 100
+  error: 500
+type_name:
+  min_length: 3
+  max_length:
+    warning: 75
+    error: 100
+  excluded:
 identifier_name:
+  min_length:
+    warning: 3
   excluded:
     - id
+    - no
+    - URL
+    - GlobalAPIKey
+    - h1
+    - h2
+    - h3
+    - ok
+    - ce
+    - hu
+    - de
+    - en
+    - fr
+    - it
+    - es
+    - sk
+    - ro
+    - rs
+    - pl
+    - cz
+    - hr
+    - si
+    - up
     - to
     - in
     - at
     - of
-    - up
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji, sonarqube, markdown)

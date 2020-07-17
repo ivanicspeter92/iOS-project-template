@@ -9,8 +9,8 @@ inhibit_all_warnings!
 
 target '{{cookiecutter.app_name}}' do
 
-  pod 'R.swift', '5.0.0'
-  pod 'SwiftLint', '0.35.0'
+  pod 'R.swift', '5.2.2'
+  pod 'SwiftLint', '0.39.2'
 
   target '{{cookiecutter.app_name}}Tests' do
     inherit! :search_paths
